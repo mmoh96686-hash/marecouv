@@ -1,12 +1,13 @@
 import { Button } from "@/components/ui/Button";
 import { Mark } from "@/components/ui/Mark";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 export function Hero() {
   return (
     <section className="grid lg:grid-cols-2 items-stretch">
       <div className="flex flex-col justify-center px-6 lg:px-14 py-16 lg:py-24">
         <h1 className="font-display font-medium text-[32px] leading-[1.2] lg:text-[40px] text-navy mb-5 max-w-md">
-          Votre partenaire de confiance pour optimiser la gestion de votre poste clients
+          La récupération de vos créances, gérée avec rigueur et discrétion
         </h1>
         <p className="text-[15px] text-ink-secondary leading-relaxed mb-8 max-w-sm">
           Recouvrement amiable et judiciaire pour les entreprises
@@ -19,6 +20,7 @@ export function Hero() {
           <Button href="/devis" variant="secondary">
             Demander un devis
           </Button>
+          <WhatsAppButton label="WhatsApp" variant="secondary" />
         </div>
       </div>
 

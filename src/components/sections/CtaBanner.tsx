@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { Mark } from "@/components/ui/Mark";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 export function CtaBanner() {
   return (
@@ -19,6 +20,7 @@ export function CtaBanner() {
           <Button href="/devis" variant="ghost">
             Demander un devis
           </Button>
+          <WhatsAppButton label="WhatsApp" variant="ghost" />
         </div>
       </Container>
     </section>

@@ -4,6 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Container } from "@/components/ui/Container";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Button } from "@/components/ui/Button";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Demande de devis | Marecouv",
@@ -61,6 +62,17 @@ export default function DevisPage() {
               Envoyer la demande
             </Button>
           </form>
+
+          <div className="mt-8 pt-6 border-t border-stone-line">
+            <p className="text-xs text-ink-muted mb-3">
+              Besoin d&apos;une réponse plus rapide ?
+            </p>
+            <WhatsAppButton
+              label="Demander un devis sur WhatsApp"
+              message="Bonjour, je souhaite obtenir un devis pour un service de recouvrement de créances. Je vous contacte depuis le site de Marecouv. Merci de me recontacter."
+              variant="secondary"
+            />
+          </div>
         </Container>
       </main>
       <Footer />

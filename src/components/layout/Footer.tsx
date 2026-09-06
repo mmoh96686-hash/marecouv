@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { Mark } from "@/components/ui/Mark";
+import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
+import { getWhatsAppLink } from "@/lib/whatsapp";
 
 export function Footer() {
   return (
@@ -37,6 +39,18 @@ export function Footer() {
           <ul className="space-y-2 text-sm text-ink-secondary">
             <li>40, Rue Abou Rakrak, Benjdia, Casablanca</li>
             <li>+212 6 00 09 45 26</li>
+            <li>
+              <a
+                href={getWhatsAppLink()}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Discuter sur WhatsApp (ouvre WhatsApp dans un nouvel onglet)"
+                className="inline-flex items-center gap-1.5 hover:text-navy"
+              >
+                <WhatsAppIcon className="w-3.5 h-3.5" />
+                WhatsApp
+              </a>
+            </li>
             <li>marecoov@gmail.com</li>
             <li>Lundi au vendredi, 9h à 18h</li>
           </ul>

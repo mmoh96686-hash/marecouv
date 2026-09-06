@@ -4,6 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Container } from "@/components/ui/Container";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Button } from "@/components/ui/Button";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Confier une créance | Marecouv",
@@ -73,6 +74,16 @@ export default function ConfierUneCreancePage() {
               Transmettre le dossier
             </Button>
           </form>
+
+          <div className="mt-8 pt-6 border-t border-stone-line">
+            <p className="text-xs text-ink-muted mb-3">
+              Vous préférez décrire votre dossier directement à l&apos;oral ?
+            </p>
+            <WhatsAppButton
+              label="Discuter de mon dossier sur WhatsApp"
+              variant="secondary"
+            />
+          </div>
         </Container>
       </main>
       <Footer />

@@ -2,6 +2,8 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { Mark } from "@/components/ui/Mark";
+import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
+import { getWhatsAppLink } from "@/lib/whatsapp";
 
 const links = [
   { href: "/a-propos", label: "À propos" },
@@ -33,6 +35,16 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4">
+          <a
+            href={getWhatsAppLink()}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Discuter sur WhatsApp (ouvre WhatsApp dans un nouvel onglet)"
+            title="Discuter sur WhatsApp"
+            className="hidden sm:flex items-center justify-center h-9 w-9 rounded-full text-navy hover:bg-stone transition-colors"
+          >
+            <WhatsAppIcon className="w-[18px] h-[18px]" />
+          </a>
           <button
             type="button"
             aria-label="Changer de langue"

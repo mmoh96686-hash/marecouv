@@ -4,6 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Container } from "@/components/ui/Container";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Button } from "@/components/ui/Button";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Contact | Marecouv",
@@ -58,6 +59,12 @@ export default function ContactPage() {
                 <dd className="text-sm text-ink-secondary">Lundi au vendredi, 9h à 18h</dd>
               </div>
             </dl>
+
+            <WhatsAppButton
+              label="Nous écrire sur WhatsApp"
+              variant="primary"
+              className="mb-8"
+            />
 
             <div className="rounded-[10px] overflow-hidden border border-stone-line h-64">
               <iframe
@@ -149,6 +156,15 @@ export default function ContactPage() {
               Les informations transmises via ce formulaire sont traitées de
               manière confidentielle.
             </p>
+            <div className="pt-2 border-t border-stone-line">
+              <p className="text-xs text-ink-muted mb-3">
+                Vous préférez une réponse plus rapide ?
+              </p>
+              <WhatsAppButton
+                label="Discuter sur WhatsApp"
+                variant="secondary"
+              />
+            </div>
           </form>
         </Container>
       </main>

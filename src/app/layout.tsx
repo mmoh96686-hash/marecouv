@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
+import { WhatsAppFloatingButton } from "@/components/ui/WhatsAppFloatingButton";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -45,6 +46,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col bg-white text-navy">
         {children}
+        <WhatsAppFloatingButton />
       </body>
     </html>
   );
