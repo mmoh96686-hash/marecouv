@@ -37,7 +37,7 @@ export function Footer() {
           <ul className="space-y-2 text-sm text-ink-secondary">
             <li>40, Rue Abou Rakrak, Benjdia, Casablanca</li>
             <li>+212 6 00 09 45 26</li>
-            <li>recouvexpress@gmail.com</li>
+            <li>marecoov@gmail.com</li>
             <li>Lundi au vendredi, 9h à 18h</li>
           </ul>
         </div>

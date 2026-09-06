@@ -26,7 +26,7 @@ export default function RecrutementPage() {
             intéresse dans le recouvrement de créances. Nous répondons à
             chaque candidature, même en l&apos;absence de poste ouvert.
           </p>
-          <Button href="mailto:recouvexpress@gmail.com" variant="primary">
+          <Button href="mailto:marecoov@gmail.com" variant="primary">
             Envoyer une candidature spontanée
           </Button>
         </Container>

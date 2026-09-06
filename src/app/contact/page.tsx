@@ -49,7 +49,7 @@ export default function ContactPage() {
                 <dt className="text-xs uppercase tracking-[0.06em] text-ink-muted mb-1">
                   E-mail
                 </dt>
-                <dd className="text-sm text-ink-secondary">recouvexpress@gmail.com</dd>
+                <dd className="text-sm text-ink-secondary">marecoov@gmail.com</dd>
               </div>
               <div>
                 <dt className="text-xs uppercase tracking-[0.06em] text-ink-muted mb-1">

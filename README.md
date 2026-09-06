@@ -38,7 +38,7 @@ Ouvrir http://localhost:3000
 
 ## Remarque sur les coordonnées
 
-L'adresse e-mail affichée (`recouvexpress@gmail.com`) est celle fournie dans
+L'adresse e-mail affichée (`marecoov@gmail.com`) est celle fournie dans
 le cahier des charges d'origine. Le nom de domaine n'a pas été mis à jour
 vers "marecouv" car aucune adresse `@marecouv.ma` (ou équivalent) n'a été
 confirmée comme existante — à corriger dès qu'une adresse officielle sous le

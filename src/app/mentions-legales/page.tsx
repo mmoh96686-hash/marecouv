@@ -24,7 +24,7 @@ export default function MentionsLegalesPage() {
               Siège social : 40, Rue Abou Rakrak, 2ème étage, N°6, Benjdia,
               Casablanca, Maroc.
               <br />
-              Téléphone : +212 6 00 09 45 26. E-mail : recouvexpress@gmail.com
+              Téléphone : +212 6 00 09 45 26. E-mail : marecoov@gmail.com
             </p>
           </div>
           <div>
